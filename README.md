@@ -426,7 +426,7 @@ export const skills = [
 export const experience = [
   {
     id: 1,
-    company: "Sov Technologies",
+    company: "BindassDeal Digital Private Limited",
     role: "React Developer",
     duration: "Sep 2022 - Present",
     location: "Ghaziabad, India",

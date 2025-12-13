@@ -16,7 +16,7 @@ export const personalInfo = {
 export const skills = [
   { name: "React.js", level: 95, icon: "⚛️", category: "Frontend" },
   { name: "JavaScript", level: 90, icon: "📜", category: "Frontend" },
-  { name: "Next.js", level: 85, icon: "▲", category: "Frontend" },
+  // { name: "Next.js", level: 85, icon: "▲", category: "Frontend" },
   { name: "Redux", level: 85, icon: "🔄", category: "State Management" },
   { name: "Tailwind CSS", level: 90, icon: "🎨", category: "Styling" },
   { name: "HTML/CSS", level: 95, icon: "🌐", category: "Frontend" },

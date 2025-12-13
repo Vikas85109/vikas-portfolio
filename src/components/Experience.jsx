@@ -119,7 +119,7 @@ const Experience = () => {
           <div className="inline-flex items-center gap-3 px-6 py-3 glass rounded-full">
             <span className="w-3 h-3 bg-green-400 rounded-full animate-pulse"></span>
             <span className="text-gray-300">
-              Currently working at <span className="text-purple-400 font-semibold">Sov Technologies</span> as a React Developer
+              Currently working at <span className="text-purple-400 font-semibold">BindassDeal Digital Private Limited</span> as a React Developer
             </span>
           </div>
         </div>
