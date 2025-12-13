@@ -58,7 +58,7 @@ const Skills = () => {
         </div>
 
         {/* Tech Stack Banner */}
-        <div className="mt-20">
+        <div className="mt-10">
           <div className="glass rounded-2xl p-8 lg:p-12 text-center">
             <h4 className="text-2xl font-bold text-white mb-6">
               Primary Tech Stack
@@ -77,7 +77,7 @@ const Skills = () => {
         </div>
 
         {/* Additional Info */}
-        <div className="grid md:grid-cols-3 gap-6 mt-12">
+        <div className="grid md:grid-cols-3 gap-6 mt-8">
           <div className="glass rounded-2xl p-6 text-center card-hover">
             <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-gradient-to-r from-indigo-500 to-purple-500 flex items-center justify-center">
               <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">

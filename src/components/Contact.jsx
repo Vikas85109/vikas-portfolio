@@ -127,8 +127,8 @@ const Contact = () => {
                   <a
                     key={social.name}
                     href={social.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    target={social.icon === 'email' ? '_self' : '_blank'}
+                    rel={social.icon === 'email' ? undefined : 'noopener noreferrer'}
                     className="w-12 h-12 glass rounded-xl flex items-center justify-center hover:bg-white/10 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-purple-500/20"
                     title={social.name}
                   >
