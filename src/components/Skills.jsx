@@ -64,7 +64,7 @@ const Skills = () => {
               Primary Tech Stack
             </h4>
             <div className="flex flex-wrap justify-center gap-4">
-              {['React.js', 'JavaScript', 'Next.js', 'Redux', 'Tailwind CSS', 'Node.js'].map((tech) => (
+              {['React.js', 'JavaScript', 'Next.js', 'Redux', 'Tailwind CSS'].map((tech) => (
                 <div
                   key={tech}
                   className="px-6 py-3 bg-gradient-to-r from-indigo-500/20 to-purple-500/20 border border-purple-500/30 rounded-xl text-white font-medium hover:from-indigo-500/30 hover:to-purple-500/30 transition-all cursor-default"

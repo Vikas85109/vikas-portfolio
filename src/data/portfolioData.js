@@ -1,16 +1,16 @@
 // Portfolio Data - Easy to update and maintain
 export const personalInfo = {
   name: "Vikas Sharma",
-  role: "Frontend Developer",
+  role: "Frontend Engineer",
   specialization: "React.js",
   experience: "3.5+ Years",
   email: "vikassharma85109@gmail.com",
   phone: "+91 8510928039",
   location: "Gurgaon, India",
-  linkedin: "https://linkedin.com/in/vikas-sharma-4bb27418a",
+  linkedin: "https://linkedin.com/in/vikassharma",
   github: "https://github.com/Vikas85109",
-  summary: "Passionate frontend developer building high-performance and scalable UIs. Specialized in React.js ecosystem with expertise in creating modern, responsive web applications.",
-  resumeLink: "#", // Add your resume link here
+  summary: "Frontend Developer with 3.5+ years of experience building responsive, scalable, and user-friendly web applications using React.js, JavaScript (ES6+), Redux, and modern UI frameworks. Strong in component-based architecture, API integration, performance optimization, and writing clean, maintainable code.",
+  resumeLink: "/vikas_resume.pdf",
 };
 
 export const skills = [
@@ -20,9 +20,6 @@ export const skills = [
   { name: "Redux", level: 85, icon: "🔄", category: "State Management" },
   { name: "Tailwind CSS", level: 90, icon: "🎨", category: "Styling" },
   { name: "HTML/CSS", level: 95, icon: "🌐", category: "Frontend" },
-  { name: "Node.js", level: 75, icon: "🟢", category: "Backend" },
-  { name: "Express.js", level: 70, icon: "🚂", category: "Backend" },
-  { name: "MongoDB", level: 70, icon: "🍃", category: "Database" },
   { name: "Git/GitHub", level: 85, icon: "🔀", category: "Tools" },
   { name: "Bootstrap", level: 85, icon: "🅱️", category: "Styling" },
   { name: "Material UI", level: 80, icon: "🎯", category: "UI Library" },
@@ -31,45 +28,30 @@ export const skills = [
 export const experience = [
   {
     id: 1,
-    company: "Sov Technologies",
+    company: "BindassDeal Digital Private Limited",
     role: "React Developer",
-    duration: "Sep 2022 - Present",
-    location: "Ghaziabad, India",
+    duration: "March 2022 - Present",
+    location: "Remote",
     description: [
-      "Working on Blockchain Project as a React Developer",
-      "Integrated multiple APIs and handled complex design implementations",
-      "Built decentralized application interfaces with Web3 integration",
-      "Collaborated with backend teams for seamless API integration",
+      "TuVozNow — Developed complete frontend for a video platform similar to YouTube using React.js with video playback, upload, likes, views, and user interaction features",
+      "Vijaya Publications / Vijaya Books — Built book listing UI, filters, dashboards, and content modules using React.js and Tailwind CSS",
+      "Krishna Travel Services — Developed booking forms, travel package UI sections, and mobile-optimized responsive layouts",
+      "Optimized API calls, improved performance, and designed fully responsive UI for all devices",
     ],
-    techStack: ["React.js", "Web3", "JavaScript", "CSS", "API Integration"],
-    projectLink: "https://swap.shibnobi.com/#/swap",
+    techStack: ["React.js", "Tailwind CSS", "JavaScript", "REST API", "Responsive Design"],
   },
   {
     id: 2,
-    company: "Pepcoding Education Pvt Ltd",
-    role: "Product Engineer (Intern)",
-    duration: "Jan 2022 - Jun 2022",
+    company: "Pepcoding Education Private Limited",
+    role: "Product Engineer Intern",
+    duration: "June 2021 - March 2022",
     location: "Noida, India",
     description: [
-      "Assisted students with doubt support for web development questions",
-      "Developed projects using HTML, CSS, React.js, and Node.js",
-      "Worked with various courses like Nados, Core team, etc.",
-      "Contributed to educational content and course materials",
+      "Resolved frontend development queries in HTML, CSS, JavaScript, and React.js",
+      "Developed UI components and mini-applications for learning platforms (Nados, Core)",
+      "Built hands-on practice projects using React.js to enhance learning outcomes",
     ],
-    techStack: ["React.js", "Node.js", "HTML", "CSS", "JavaScript"],
-  },
-  {
-    id: 3,
-    company: "Delhivery Pvt Ltd",
-    role: "C2C Partner (Intern)",
-    duration: "Feb 2021 - Dec 2021",
-    location: "Gurgaon, India",
-    description: [
-      "Worked as a Salesforce Admin for logistics operations",
-      "Managed day-to-day customer relationship management services",
-      "Handled e-commerce supply chain coordination",
-    ],
-    techStack: ["Salesforce", "CRM", "Logistics Management"],
+    techStack: ["React.js", "HTML", "CSS", "JavaScript"],
   },
 ];
 
@@ -151,8 +133,8 @@ export const companyProjects = [
 
 export const education = [
   {
-    degree: "B.Tech in Computer Science & Engineering",
-    institution: "Gurgaon Institute of Technology and Management",
+    degree: "B.Tech in Computer Science and Engineering",
+    institution: "GITM Gurgaon, MDU Rohtak, Gurugram",
     duration: "2015 - 2019",
   },
 ];
@@ -167,7 +149,7 @@ export const socialLinks = [
   },
   {
     name: "LinkedIn",
-    url: "https://linkedin.com/in/vikas-sharma-4bb27418a",
+    url: "https://linkedin.com/in/vikassharma",
     icon: "linkedin",
   },
   {
